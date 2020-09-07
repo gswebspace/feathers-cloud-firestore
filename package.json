@@ -4,7 +4,7 @@
   "description": "A Feathers database adapter using Cloud Firestore Node.js Server SDK",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Guinnes Singh <gswebspace@gmail.com>",
   "license": "MIT",
@@ -14,7 +14,23 @@
     "@feathersjs/feathers": "^4.5.8",
     "@google-cloud/firestore": "^4.2.0"
   },
-  "devDependencies": {
-    "@feathersjs/express": "^4.5.8"
-  }
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gswebspace/feathers-cloud-firestore.git"
+  },
+  "keywords": [
+    "feathers",
+    "cloud",
+    "firestore",
+    "database",
+    "adapter"
+  ],
+  "bugs": {
+    "url": "https://github.com/gswebspace/feathers-cloud-firestore/issues"
+  },
+  "homepage": "https://github.com/gswebspace/feathers-cloud-firestore#readme"
 }
