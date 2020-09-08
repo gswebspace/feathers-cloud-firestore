@@ -1,6 +1,6 @@
 {
   "name": "feathers-cloud-firestore",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Feathers database adapter using Cloud Firestore Node.js Server SDK",
   "main": "index.js",
   "scripts": {

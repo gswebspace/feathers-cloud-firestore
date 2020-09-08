@@ -60,3 +60,6 @@ Note: This package is currently under development. If you see any issues feel fr
 - Dates are converted to milliseconds in responses
 - Document references are converted to `path` strings in responses
 - Range queries on multiple keys are not supported due the [inherent limitation](https://firebase.google.com/docs/firestore/query-data/queries#query_limitations).
+- More than 10 values are not supported in $in
+- $nin and $ne are not supported
+- $or is not yet implemented
